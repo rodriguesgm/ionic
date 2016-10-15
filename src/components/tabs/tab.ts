@@ -34,7 +34,7 @@ import { ViewController } from '../../navigation/view-controller';
  *
  * ```html
  * <ion-tabs>
- *  <ion-tab [root]="chatRoot" tabTitle="Chat" tabIcon="chat"><ion-tab>
+ *  <ion-tab [root]="chatRoot" tabTitle="Chat" tabIcon="chat"></ion-tab>
  * </ion-tabs>
  * ```
  *
@@ -59,7 +59,7 @@ import { ViewController } from '../../navigation/view-controller';
  *
  * ```html
  * <ion-tabs>
- *  <ion-tab [root]="chatRoot" [rootParams]="chatParams" tabTitle="Chat" tabIcon="chat"><ion-tab>
+ *  <ion-tab [root]="chatRoot" [rootParams]="chatParams" tabTitle="Chat" tabIcon="chat"></ion-tab>
  * </ion-tabs>
  * ```
  *
